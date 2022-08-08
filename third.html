@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     .circle{
+       height: 40px;
+       width: 40px;
+       background-color: #00A5EC;
+       color: white;
+       border-radius: 50%;
+       text-align: center;
+       font-weight:bolder;
+}
+.m2{
+   position: absolute;
+   top:80px;
+   left:calc(100vw/3);
+   width: 37px;
+   height: 37px;
+}
+
+.m4{
+    font-size: x-large;
+    width:250px;
+    height: 300px;
+    background-color: white;
+    margin-top: 70px;
+    
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+    </style>
+</head>
+<body style="background-color:whitesmoke;">
+
+    
+
+    <div class="m1" style="background-color: white; text-align: center; font-weight: bold;
+    font-size: 40px;">
+        <span class="task"><span style="color:#424242;">Tasks </span><span style="color:#00A5EC;">List</span></span>
+    </div>
+    
+    <div class="circle_heading" style="display: flex; flex-flow: row wrap; justify-content: center; margin-top: 20px;">
+        <div class="circle">
+            <div style="font-size: 30px; ">+</div>
+        </div>
+    </div>
+   <a href="./second.html">
+    <img src="./Arrows-Left-Circular-icon-removebg-preview.png" alt="this is back button" class="m2"></a>
+    
+    <div class="container">
+     <div class="m4" >
+        <div style="color: #00A5EC; font: size 20px; padding-top: 30px; padding-left: 15px; font-weight: bold; padding-bottom: 20px;">Trip to Paris</div>
+        <hr style="color:#C2C2C2 ;"><br>
+        <div style="color:#C2C2C2 ;">
+        <input type="checkbox" name="visit" checked disabled ><label style="text-decoration-line: line-through;"> Visit Church</label><br><br>
+        <input type="checkbox" disabled> Shopping<br><br>
+    </div>
+</div>
+   
+</div>
+</body>
+</html>
